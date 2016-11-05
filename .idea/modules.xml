@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scratchServelt.iml" filepath="$PROJECT_DIR$/.idea/modules/scratchServelt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scratchServelt_main.iml" filepath="$PROJECT_DIR$/.idea/modules/scratchServelt_main.iml" group="scratchServelt" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scratchServelt_test.iml" filepath="$PROJECT_DIR$/.idea/modules/scratchServelt_test.iml" group="scratchServelt" />
+    </modules>
+  </component>
+</project>

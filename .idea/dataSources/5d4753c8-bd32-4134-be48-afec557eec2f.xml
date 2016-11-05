@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - ShopDB@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="shopdb">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="accounts"/>
+    <schema id="3" name="concretepage"/>
+    <schema id="4" name="information_schema"/>
+    <schema id="5" name="mysql"/>
+    <schema id="6" name="performance_schema"/>
+    <schema id="7" name="products"/>
+    <schema id="8" name="product_sample"/>
+    <schema id="9" name="sakila"/>
+    <schema id="10" name="springsample"/>
+    <schema id="11" name="sys"/>
+    <schema id="12" name="userdb"/>
+    <schema id="13" name="web_grocery"/>
+    <schema id="14" name="world"/>
+    <table id="15" parent="1" name="users"/>
+    <column id="16" parent="15" name="user_id">
+      <mandatory>1</mandatory>
+      <data-type>mediumint(9)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="17" parent="15" name="user_name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="18" parent="15" name="user_lastname">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="19" parent="15" name="user_email">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="20" parent="15" name="user_password">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="21" parent="15" name="user_country">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+      <default-expression>&apos;Russia&apos;</default-expression>
+    </column>
+    <column id="22" parent="15" name="user_gender">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="23" parent="15" name="user_phone">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="24" parent="15" name="user_regdata">
+      <mandatory>1</mandatory>
+      <data-type>date|0</data-type>
+    </column>
+    <key id="25" parent="15" name="PRIMARY">
+      <columns>user_id</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>
