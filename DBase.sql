@@ -7,6 +7,6 @@ CREATE TABLE shopdb.users
     user_password VARCHAR(20) NOT NULL,
     user_country VARCHAR(20) DEFAULT 'Russia' NOT NULL,
     user_gender VARCHAR(1) NOT NULL,
-    user_phone BIGINT,
+    user_phone BIGINT(11) DEFAULT '111111111111',
     user_regdata DATE NOT NULL
 );
